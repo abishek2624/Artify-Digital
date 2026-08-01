@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Agency Home Page
 
-## Getting Started
+This project is a simple modern landing page for an agency website built with Next.js. It is designed to show a professional homepage with sections like navbar, hero, services, portfolio, and contact.
 
-First, run the development server:
+## Setup Instructions
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Install dependencies
+   ```bash
+   npm install
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Start the development server
+   ```bash
+   npm run dev
+   ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Open the application
+   - Visit: http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack Used
 
-## Learn More
+- Next.js
+- React
+- CSS
+- Bootstrap-style utility classes
+- React Icons
 
-To learn more about Next.js, take a look at the following resources:
+## Application Logic
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The app is organized into reusable components:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Navbar: displays the main navigation links and call-to-action button
+- Hero: shows the main introduction and branding message
+- Services: presents the services offered by the agency
+- Portfolio: displays sample work or projects
+- Contact: includes contact details and a simple form section
 
-## Deploy on Vercel
+Each section is built as a separate component, making the page easier to maintain and update.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Assumptions / Additional Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- The project is currently a static landing page with UI-focused content.
+- The contact form is present visually but is not connected to a backend service yet.
+- Images and content can be replaced easily to match a real agency brand.
+- The design is kept simple and responsive for both desktop and mobile screens.
+

@@ -1,0 +1,73 @@
+.hero-section-bg-container {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(24, 59, 86, 0.7), rgba(24, 59, 86, 0.75)),
+        url("https://res.cloudinary.com/dsejv76va/image/upload/v1785551993/cXeKtHFaWZ78-F78XiA5qJZ9LsKWHgqsYHj1_mbz1Zx8ww71nxNYLiJuoaHrK-8MkEQAM91Mr5v3qsZmLo9KxO6M3bQ5dE1dIFXiIpg9fAOZkTAPWS_3U26acS-nUWygUk3WLDpmJtwdm1og-zrLGSWg0EUzTSu64L_rpfyq9.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.hero-section-bg-container .text-center {
+    max-width: 760px;
+    color: #ffffff;
+}
+
+.custom-button {
+    color: white;
+    background: linear-gradient(135deg, #2563eb, #183b56);
+    width: 150px;
+    height: 46px;
+    border: 0;
+    border-radius: 999px;
+    margin: 8px 8px 0 0;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custom-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero-heading {
+    font-size: 3rem;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.hero-caption {
+    font-size: 1.1rem;
+    color: #e5eef7;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .hero-section-bg-container {
+        padding: 24px 16px;
+    }
+
+    .hero-heading {
+        font-size: 2.2rem;
+    }
+
+    .hero-caption {
+        font-size: 1rem;
+    }
+
+    .custom-button {
+        display: block;
+        width: 100%;
+        max-width: 220px;
+        margin: 10px auto 0;
+    }
+}

@@ -1,0 +1,77 @@
+.service-card {
+    text-align: center;
+    background-color: white;
+    border: 1px solid #e5eaf4;
+    border-radius: 16px;
+}
+
+.wcu-section {
+    background-color: #f9fbfe;
+    padding: 60px 20px;
+}
+
+.title {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.section-card {
+    text-align: center;
+    background-color: white;
+    border: 1px solid #e5eaf4;
+    border-radius: 16px;
+    padding: 24px 16px;
+    box-shadow: 0 8px 24px rgba(24, 59, 86, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.section-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(24, 59, 86, 0.12);
+}
+
+.wcu-card-image {
+    width: 87px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .wcu-section {
+        padding: 40px 16px;
+    }
+
+    .section-card {
+        padding: 20px 14px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-description {
+        font-size: 15px;
+    }
+}

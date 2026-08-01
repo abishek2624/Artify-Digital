@@ -1,0 +1,113 @@
+.contact-section {
+    background: linear-gradient(180deg, #f8fbff 0%, #f3f7ff 100%);
+    padding: 100px 20px;
+}
+
+.contact-section h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #183b56;
+    margin-bottom: 12px;
+}
+
+.contact-section p {
+    color: #5a7184;
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 32px;
+}
+
+.contact-info-card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-info-card svg {
+    color: #2563eb;
+    font-size: 1.1rem;
+}
+
+.contact-info-card span {
+    color: #183b56;
+    font-weight: 600;
+}
+
+.contact-info-card p {
+    margin: 6px 0 0 0;
+    color: #5a7184;
+}
+
+.contact-form {
+    background: white;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form label {
+    display: block;
+    color: #183b56;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.input-field,
+textarea {
+    width: 100%;
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    padding: 12px 14px;
+    margin-bottom: 16px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.input-field:focus,
+textarea:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.contact-form button {
+    background: linear-gradient(135deg, #183b56, #2563eb);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-form button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.2);
+}
+
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 80px 16px;
+    }
+
+    .contact-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .contact-info-card,
+    .contact-form {
+        padding: 24px;
+    }
+
+    .contact-form button {
+        width: 100%;
+    }
+}
