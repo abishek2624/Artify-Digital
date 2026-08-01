@@ -7,6 +7,7 @@ import ProtfolioCard from "@/Components/Protfolio/ProtfolioCard";
 import Ux from "@/Components/assets/ux.jpg";
 import Web from "@/Components/assets/web.jpg";
 import Contact from "@/Components/Contact/Contact";
+import Footer from "@/Components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <ServiceCard/>
       <ProtfolioCard/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
